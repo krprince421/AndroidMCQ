@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/q1"
+                android:layout_width="match_parent"
+                android:text="01. Kotlin was developed by ? "
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/q1o1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Google"
+
+                android:gravity="center"
+                android:padding="20dp"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q1o2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Jet Brain"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q1o3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Microsoft"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q1o4"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adobe"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="match_parent"
+                android:text="02. Kotlin is object oriented programming language ?"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/q2o1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="True"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q2o2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="False"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/q3"
+                android:layout_width="match_parent"
+                android:text="03. All classes in kotlin classes are by default ? "
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/q3o1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="public"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q3o2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="final"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q3o3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="sealed"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q3o4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="abstract"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/q4"
+                android:layout_width="match_parent"
+                android:text="04. Which of following is used to handle null exceptions in kotlin ? "
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/q4o1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Range"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q4o2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Sealed Class"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q4o3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Elvis Operator"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q4o4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Lambda Function"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/q5"
+                android:layout_width="match_parent"
+                android:text="05. Which keyword is used to declare a function ?"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/q5o1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="function"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+            <TextView
+                android:id="@+id/q5o2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="define"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q5o3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="declare"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q5o4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="fun"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/q6"
+                android:layout_width="match_parent"
+                android:text="06. Which of the following is correct way to create a variable with numeric value 5 ?"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/q6o1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="num = 5 "
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q6o2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="num = 5 int"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q6o3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="val num = 5 "
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q6o4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="int num = 5 "
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/q7"
+                android:layout_width="match_parent"
+                android:text="07. What is an immutable variable ? "
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/q7o1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="A variable that can not change , read-only "
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q7o2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="A variable that can be changed"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/q7o3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="A variable used for string interpolation"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

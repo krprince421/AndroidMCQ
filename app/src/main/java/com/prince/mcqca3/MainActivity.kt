@@ -39,7 +39,12 @@ class MainActivity : AppCompatActivity() {
             val user = db.createSession( Email , Password )
 
             if( user ){
-                Toast.makeText(this@MainActivity , "User found" , Toast.LENGTH_SHORT ).show()
+
+                val intent = Intent( this@MainActivity , Home::class.java )
+
+                startActivity( intent )
+
+                //Toast.makeText(this@MainActivity , "User found" , Toast.LENGTH_SHORT ).show()
             }else{
                 Toast.makeText(this@MainActivity , "User not found" , Toast.LENGTH_SHORT ).show()
             }
